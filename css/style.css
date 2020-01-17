@@ -3,3 +3,58 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.container{
+  width: 100vw;
+  height: 100vh;
+  background-color: #111111;
+  background-image: url("../img/abstract.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.overlay{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #AAAAAA20;
+}
+
+.middle{
+  height: 570px;
+  width: 350px;
+  background-color: white;
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.london{
+  width: 100%;
+  height: 190px;
+  /* border: 1px solid red; */
+  background-image: url("../img/london.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.stockholm{
+  width: 100%;
+  height: 190px;
+  /* border: 1px solid red; */
+  background-image: url("../img/stockholm.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.sanfrancisco{
+  width: 100%;
+  height: 190px;
+  /* border: 1px solid red; */
+  background-image: url("../img/sanfrancisco.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
