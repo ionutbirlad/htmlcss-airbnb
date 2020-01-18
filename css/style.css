@@ -63,8 +63,9 @@
   background-repeat: no-repeat;
 }
 
-h1{
+span{
   z-index: 9999;
+  display: block;
   text-align: center;
   position: relative;
   top: 50%;
@@ -72,4 +73,11 @@ h1{
   transform: translate(-50%, -50%);
   color: white;
   font-weight: 700;
+  font-size: 30px;
+  animation: text 1.5s 1;
+}
+
+ @keyframes text {
+  from{top:0px; letter-spacing: 10px; color: black;}
+  to{top:50%; color: white;}
 }
